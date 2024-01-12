@@ -8,6 +8,15 @@ const font = DM_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Sasidharan (@sasicodes)",
   description: "Crafting, coding, and beyond.",
+  category: "Personal",
+  robots: "index, follow",
+  twitter: { card: "summary_large_image" },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://sasi.codes",
+    images: "https://sasi.codes/og.png",
+  },
 };
 
 export default function RootLayout({
