@@ -19,7 +19,7 @@ const HomePage = () => {
     <div className="space-y-5 md:space-y-10">
       <Logo />
 
-      <div className="max-w-lg leading-8 text-sm text-center">
+      <div className="max-w-lg leading-8 text-center">
         Crafting products on the internet since 2019, It all began in a startup
         five years ago, learned and built applications for small businesses to
         big enterprises. Now, fortunate to be a part of{" "}
