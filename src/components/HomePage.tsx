@@ -16,7 +16,7 @@ const HomePage = () => {
   const social = SOCIALS[Math.floor(Math.random() * SOCIALS.length)];
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-5 md:space-y-10">
       <Logo />
 
       <div className="max-w-lg leading-8 text-sm text-center">
