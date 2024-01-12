@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import React, { FC, ReactNode } from "react";
 import * as Tooltip from "@radix-ui/react-tooltip";
@@ -6,10 +6,10 @@ import * as Tooltip from "@radix-ui/react-tooltip";
 type CustomLinkProps = {
   url: string;
   content: ReactNode | string;
-  image?: string;
+  image?: StaticImageData;
 };
 
-const CustomLink: FC<CustomLinkProps> = ({ url, image, content }) => {
+const CustomLink: FC<CustomLinkProps> = ({ url, content, image }) => {
   return (
     <Link
       href={url}
@@ -18,11 +18,12 @@ const CustomLink: FC<CustomLinkProps> = ({ url, image, content }) => {
     >
       {image && (
         <Image
-          className="-mb-0.5 "
+          className="-mb-0.5"
           src={image}
           alt="image"
           width={14}
           height={14}
+          placeholder="blur"
           draggable={false}
         />
       )}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import studioImage from "../../public/studio.webp";
 
 const Logo = () => {
   const [animationKey, setAnimationKey] = useState(0);
@@ -16,11 +17,12 @@ const Logo = () => {
     >
       <Image
         className="rounded rotate-180"
-        src="/studio.webp"
+        src={studioImage}
         alt="studio"
         width={40}
         height={40}
         draggable={false}
+        placeholder="blur"
       />
     </motion.div>
   );

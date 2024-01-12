@@ -11,6 +11,10 @@ import {
 } from "@/helpers/socials";
 import CustomLink from "./CustomLink";
 import Logo from "./Logo";
+import avaraImage from "../../public/avara.webp";
+import lensImage from "../../public/lens.webp";
+import tapeImage from "../../public/tape.webp";
+import nyolingImage from "../../public/nyoling.webp";
 
 const HomePage = () => {
   const social = SOCIALS[Math.floor(Math.random() * SOCIALS.length)];
@@ -23,15 +27,14 @@ const HomePage = () => {
         Crafting products on the internet since 2019, It all began in a startup
         five years ago, learned and built applications for small businesses to
         big enterprises. Now, fortunate to be a part of{" "}
-        <CustomLink url={AVARA_URL} content="Avara" image="/avara.webp" />,
+        <CustomLink url={AVARA_URL} content="Avara" image={avaraImage} />,
         contributing to exciting products at{" "}
-        <CustomLink url={LENS_URL} content="Lens" image="/lens.webp" />. Also,
+        <CustomLink url={LENS_URL} content="Lens" image={lensImage} />. Also,
         crafting my first{" "}
         <CustomLink url={TAPE_GITHUB_URL} content="open-source" /> project
-        called <CustomLink url={TAPE_URL} content="Tape" image="/tape.webp" />,
-        a social media platform. I live in Bangalore, India. Find me everywhere
-        as{" "}
-        <CustomLink url={social} content="@sasicodes" image="/nyoling.webp" />.
+        called <CustomLink url={TAPE_URL} content="Tape" image={tapeImage} />, a
+        social media platform. I live in Bangalore, India. Find me everywhere as{" "}
+        <CustomLink url={social} content="@sasicodes" image={nyolingImage} />.
       </div>
 
       <div className="w-[0.5px] h-24 bg-gradient-to-b to-orange-500/90 from-orange-100 rounded-lg mx-auto" />
