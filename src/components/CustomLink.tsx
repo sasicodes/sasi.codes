@@ -23,7 +23,6 @@ const CustomLink: FC<CustomLinkProps> = ({ url, content, image }) => {
           alt="image"
           width={14}
           height={14}
-          placeholder="blur"
           draggable={false}
         />
       )}

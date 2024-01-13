@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   category: "Personal",
   robots: "index, follow",
   twitter: { card: "summary_large_image" },
+  metadataBase: new URL("https://sasi.codes"),
   openGraph: {
     type: "website",
     locale: "en_US",
