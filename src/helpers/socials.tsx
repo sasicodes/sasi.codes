@@ -2,6 +2,7 @@ export const SOCIALS = [
   "https://x.com/sasicodes?utm_source=sasi.codes",
   "https://github.com/sasicodes?utm_source=sasi.codes",
   "https://linkedin.com/in/sasicodes?utm_source=sasi.codes",
+  "https://tape.xyz/u/sasicodes?utm_source=sasi.codes",
 ];
 
 export const AVARA_URL = "https://avara.xyz?utm_source=sasi.codes";
