@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import AnimatedSign from "./AnimatedSign";
 import {
   AVARA_URL,
@@ -17,7 +17,12 @@ import tapeImage from "../../public/tape.webp";
 import nyolingImage from "../../public/nyoling.webp";
 
 const HomePage = () => {
-  const social = SOCIALS[Math.floor(Math.random() * SOCIALS.length)];
+  const [social, setSocial] = useState(SOCIALS[0]);
+
+  useEffect(() => {
+    const randomNumber = Math.floor(Math.random() * SOCIALS.length);
+    setSocial(SOCIALS[randomNumber]);
+  }, []);
 
   return (
     <div className="space-y-5 md:space-y-10">
