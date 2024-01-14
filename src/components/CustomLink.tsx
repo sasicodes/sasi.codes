@@ -18,10 +18,10 @@ const CustomLink: FC<CustomLinkProps> = ({ url, content, image }) => {
     >
       {image && (
         <Image
-          className="-mb-0.5"
+          className="-mb-0.5 w-4 rounded-sm overflow-hidden"
           src={image}
           alt="image"
-          width={14}
+          placeholder="blur"
           draggable={false}
         />
       )}
