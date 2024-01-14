@@ -22,14 +22,13 @@ const CustomLink: FC<CustomLinkProps> = ({ url, content, image }) => {
           src={image}
           alt="image"
           width={14}
-          height={14}
           draggable={false}
         />
       )}
       <Tooltip.Provider>
         <Tooltip.Root>
           <Tooltip.Trigger>
-            <div className="font-medium hover:text-orange-500 underline hover:decoration-[3px] transition-all duration-200 underline-offset-4">
+            <div className="font-medium hover:text-orange-500 underline transition-all duration-200 underline-offset-4">
               {content}
             </div>
           </Tooltip.Trigger>
