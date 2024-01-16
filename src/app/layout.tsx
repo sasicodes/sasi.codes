@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import BackgroundComets from "@/components/BackgroundComets";
 
 const font = DM_Sans({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={font.className}>
         {children}
+        <BackgroundComets />
         <Analytics />
       </body>
     </html>
