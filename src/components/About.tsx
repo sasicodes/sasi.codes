@@ -22,7 +22,7 @@ const About = () => {
 
   return (
     <div className="max-w-lg leading-8 text-center">
-      Crafting products on the internet since 2019, It all began in a startup
+      Crafting products on the internet since 2019. It all began in a startup
       five years ago, learned and built applications for small businesses to big
       enterprises. Now, fortunate to be a part of{" "}
       <CustomLink url={AVARA_URL} content="Avara" image={avaraImage} />,
