@@ -31,7 +31,7 @@ const About = () => {
       crafting my first{" "}
       <CustomLink url={TAPE_GITHUB_URL} content="open-source" /> project called{" "}
       <CustomLink url={TAPE_URL} content="Tape" image={tapeImage} />, a social
-      media platform. I live in Bangalore, India. Find me everywhere as{" "}
+      media platform. I live in Tamilnadu, India. Find me everywhere as{" "}
       <CustomLink url={social} content="@sasicodes" image={nyolingImage} />.
     </div>
   );
