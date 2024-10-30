@@ -24,14 +24,14 @@ const About = () => {
     <div className="max-w-lg leading-8 text-center">
       Crafting products on the internet since 2019. It all began in a startup
       five years ago, learned and built applications for small businesses to big
-      enterprises. Now, fortunate to be a part of{" "}
+      enterprises. Now, crafting my first{" "}
+      <CustomLink url={TAPE_GITHUB_URL} content="open-source" /> project called{" "}
+      <CustomLink url={TAPE_URL} content="Tape" image={tapeImage} />, an open
+      social media. Before that, fortunate to be a part of{" "}
       <CustomLink url={AVARA_URL} content="Avara" image={avaraImage} />,
       contributing to exciting products at{" "}
-      <CustomLink url={LENS_URL} content="Lens" image={lensImage} />. Also,
-      crafting my first{" "}
-      <CustomLink url={TAPE_GITHUB_URL} content="open-source" /> project called{" "}
-      <CustomLink url={TAPE_URL} content="Tape" image={tapeImage} />, a social
-      media platform. I live in Tamilnadu, India. Find me everywhere as{" "}
+      <CustomLink url={LENS_URL} content="Lens" image={lensImage} />. I live in
+      தமிழ்நாடு. Find me everywhere as{" "}
       <CustomLink url={social} content="@sasicodes" image={nyolingImage} />.
     </div>
   );
